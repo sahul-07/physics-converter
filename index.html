@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="soliton1.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="converter-card" style="margin-top: 30px;">
+            <h1>Physics Converter</h1>
+           
+            
+            <div class="input-group">
+                <label for="kmInput">Enter Speed in km/hr:</label>
+                <input type="number" id="kmInput" placeholder="Ex: 72">
+            </div>
+
+            <button onclick="convert()">Convert to m/s</button>
+
+            <div id="resultBox" style="display: none;">
+                <p id="resultText"></p>
+            </div>
+            
+            <div class="info">
+                <p>Formula: 1 km/hr = 5/18 m/s</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<div class = "container">
+    <div class="converter-card" style="margin-top: 30px;">
+    <h1>Ohm's Law Calculator</h1>
+    <p>Calculate Resistance (R = V / I)</p>
+    
+    <div class="input-group">
+        <label>Voltage (V):</label>
+        <input type="number" id="voltageInput" placeholder="Enter Volts">
+    </div>
+
+    <div class="input-group">
+        <label>Current (I):</label>
+        <input type="number" id="currentInput" placeholder="Enter Amperes">
+    </div>
+
+    <button onclick="calculateOhm()">Calculate Resistance</button>
+
+    <div id="ohmresultBox" style="display:none;">
+        <p id="ohmresultText"></p>
+    </div>
+</div>
+
+    <script src="soliton2.js"></script>
+</div>
+</body>
+</html>

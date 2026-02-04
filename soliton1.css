@@ -1,0 +1,124 @@
+
+body 
+{
+    background: linear-gradient(135deg, #710202, #3e0149, #b503f6); /* Modern Dark Blue Gradient */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #540707;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.converter-card {
+    background: #fde5e5;
+    padding: 40px 30px;
+    border-radius: 30px;
+    box-shadow: 5px  25px 35px ;
+    text-align: center;
+}
+
+h1 {
+    color: #b73b3d;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #4d6a53;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* Input Styles */
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #2c5364;
+    outline: none;
+}
+
+
+button {
+    width: 100%;
+    background: #c30303;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+   cursor: pointer;
+    transition:  0.2s, background 0.3s;
+}
+
+button:hover {
+    background: #6f1d02;
+    transform: translateY(-2px); /*idha use pandradhaala light aah andha button mela theriyum mouse padum bodhu*/
+}
+
+
+#resultBox {
+    margin-top: 25px;
+    padding: 15px;
+    background: #724f4f;
+    border-radius: 15px;
+    border-left: 10px solid #ed1a07;
+}
+
+#resultText {
+    margin: 0;
+    font-size: 18px;
+    color: #020b10;
+}
+
+
+#ohmresultBox {
+    margin-top: 25px;
+    padding: 15px;
+    background: #724f4f;
+    border-radius: 15px;
+    border-left: 10px solid #ed1a07;
+}
+
+#ohmresultText {
+    margin: 0;
+    font-size: 18px;
+    color: #020b10;
+}
+
+
+
+
+.info {
+    margin-top: 20px;
+    color: #656363;
+}
